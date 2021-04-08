@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steam_backgroung">
+    <ImageView
+        android:id="@+id/setting_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/back"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="设置"
+        android:textSize="20sp"/>
+    <View
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#0C0C0C"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="241dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/setting_account"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="账号管理"
+            android:gravity="center|left"
+            android:textSize="18sp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#0C0C0C" />
+        <TextView
+            android:id="@+id/setting_language"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="语言"
+            android:gravity="center|left"
+            android:textSize="18sp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#0C0C0C" />
+        <TextView
+            android:id="@+id/setting_logout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="注销登陆"
+            android:gravity="center|left"
+            android:textSize="18sp"/>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#0C0C0C" />
+        <TextView
+            android:id="@+id/setting_clean"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="清除缓存"
+            android:gravity="center|left"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>

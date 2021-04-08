@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="真的要注销吗∑( 口 ||~"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4DA3E7"/>
+    <TextView
+        android:id="@+id/steam_no_logout"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="手滑了qwq"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:background="#4DA3E7"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp"/>
+    <TextView
+        android:id="@+id/steam_logout"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="登出:-b"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp"/>
+
+</LinearLayout>

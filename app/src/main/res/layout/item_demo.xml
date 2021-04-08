@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    app:cardElevation="100dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="6dp"
+    android:clickable="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgs_yiyan"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_gravity="left" />
+        <TextView
+            android:id="@+id/rhesis_writer"
+            android:layout_width="120dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="110dp"
+            android:text="作者"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/rhesis_book"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="1dp"
+            android:text="《出自》"
+            android:textSize="14sp"
+            android:textColor="#FF5722" />
+        <TextView
+            android:id="@+id/rhesis_sentence"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginStart="110dp"
+            android:text="测试是第三的绘画方式"
+            android:textSize="15sp"
+            android:textColor="#03A9F4" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
